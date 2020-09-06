@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+.btn {
+  @apply transition duration-500 ease-in-out bg-gray-300 px-4 py-2 m-4 rounded-sm text-center tracking-widest uppercase text-gray-700 shadow-md;
+}
+
+.btn:hover {
+  @apply bg-gray-100;
+  cursor: pointer;
+}
+
+@media print {
+  div {
+    page-break-inside: avoid 
+   
+  }
+}
+
+@import 'tailwindcss/utilities';
